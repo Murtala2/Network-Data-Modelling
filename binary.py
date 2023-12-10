@@ -1,4 +1,5 @@
 def convert_base_to_decimal(number, base):
+    # function to convert base to decimal
     return int(str(number), base) if str(number).isdigit() else ValueError(f'invaled number inputed:{number}')
 
 def convert_decimal_to_base(number, base):
